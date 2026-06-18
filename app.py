@@ -1,5 +1,5 @@
 import aws_cdk as cdk
-from Flow_Stack import BedrockOpaFlowStack
+from OPA_Flow.Stacks.Flow_Stack import BedrockOpaFlowStack
 
 app = cdk.App()
 
