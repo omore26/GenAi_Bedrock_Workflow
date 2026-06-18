@@ -51,12 +51,12 @@ Rules:
 Return only the final Rego policy.
 """
 
-        # Bedrock Flow Defination
+        # Bedrock Flow Definition
         flow = bedrock.CfnFlow(
             self,
             "OpaPolicyFlow",
             name="Generate_OPA_Policies_Flow",
-            description="Bedrock Flow to generate OPA policies for Kafka security checks.",
+            description="Bedrock Flow to generating OPA policies",
             execution_role_arn=bedrock_role.role_arn,
             definition={
                 "nodes":[
